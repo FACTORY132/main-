@@ -1,0 +1,93 @@
+
+html {
+
+box-sizing: border-box;
+height = 100%;
+
+}
+
+*::before,*::after {
+
+height: inherit;
+padding: 0;
+margin: 0
+
+}
+
+body{
+    background-color: black;
+    background: repeating-linear-gradient(60deg, transparent, transparent 19.99999999%, rgba(0,0,0,0.25) 19.99999999%, rgba(0,0,0,0.25) 25%) top left fixed, linear-gradient(to right, #222, #222 100%);
+    background-size: 22px 12.5px, 100%;
+}
+
+
+.topnav {
+border-top: 1px solid black;
+border-bottom: 3px solid red;
+left: 0;
+top: 0;
+z-index: 999;
+position: fixed;
+width: 100%;
+height: 5%;
+background-color: black;
+}
+
+.login {
+width: 60%;
+color: #fff;
+padding: 14px 16px;
+float: left;
+marign-top: 5px;
+}
+
+.about {
+width: 40%;
+float: right;
+display:block;
+padding: 14px 16px;
+margin-top: -50px;
+
+}
+
+.about a {
+
+padding: 5px 20px;
+float right;
+height: 10px;
+font-style: italic;
+color: red;
+
+}
+
+.about a:hover {
+
+color: yellow;
+
+}
+
+.about a:active {
+
+color: purple;
+
+}
+
+.login [type=text],[type=password] {
+
+border: 3px solid red;
+
+}
+
+
+.main {
+width=90%;
+magin: 0 auto;
+
+}
+
+.header {
+
+}
+
+
+
