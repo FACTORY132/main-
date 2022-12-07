@@ -44,7 +44,7 @@ marign-top: 5px;
 .about {
 width: 40%;
 float: right;
-display:block;
+
 padding: 14px 16px;
 margin-top: -50px;
 
@@ -57,12 +57,14 @@ float right;
 height: 10px;
 font-style: italic;
 color: red;
-
+text-decoration: none;
 }
 
-.about a:hover {
 
-color: yellow;
+
+.about a:hover {
+background-color: white;
+color: red;
 
 }
 
@@ -80,12 +82,50 @@ border: 3px solid red;
 
 
 .main {
-width=90%;
+width=100%;
+height: 100%;
 magin: 0 auto;
-
+display: block;
 }
 
 .header {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	margin-top: 0px;
+}
+
+.side {
+text-align: center;
+font-size: xx-large;
+width: 10%;
+height: 100%;
+left: 0;
+margin-top: -54%;
+margin: left;
+background: linear-gradient(320deg, rgb(79, 31, 42), rgb(32, 39, 93));
+}
+
+.side a {
+
+color: white;
+
+}
+
+.text-slide {
+
+width: 100%;
+height: 5%;
+margin-top: 55px;
+background: linear-gradient(220deg, green, black, green);
+
+}
+
+.text-slide marquee {
+font-style: italic;
+font-size: xx-large;
+
+color: white;
 
 }
 
